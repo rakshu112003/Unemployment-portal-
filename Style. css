@@ -1,0 +1,39 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Unemployment Portal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>Unemployment Portal</h1>
+  <p>Your gateway to find jobs and career support.</p>
+</header>
+
+<section id="search-section">
+  <input type="text" id="job-search" placeholder="Search jobs by title or location..." />
+</section>
+
+<section id="jobs-section">
+  <h2>Available Jobs</h2>
+  <ul id="job-list">
+    <!-- Jobs will be added here -->
+  </ul>
+</section>
+
+<section id="contact-section">
+  <h2>Contact Us</h2>
+  <form id="contact-form">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
